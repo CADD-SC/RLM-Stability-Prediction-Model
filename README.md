@@ -3,7 +3,7 @@ Machine learning-based prediction model for Rat Liver Microsomal (RLM) stability
 
 ## Introduction: ## 
 
-Welcome to our repository, here we provide machine learning model to efficiently predict the Rat Liver Microsomal (RLM) stability of target drug compounds in early stage of drug discovery process.
+Welcome to our repository, here we provide machine learning model to efficiently predict the Rat Liver Microsomal (RLM) stability of target drug compounds in early stage of drug discovery process
 
 ## Dependencies ##
 
@@ -36,6 +36,6 @@ Note: For the validation step, prepare a .csv file containing SMILES with biocla
 Our model generates output in binary value (1 or 0), where 1 indicates compound to be stable, while 0 indicates unstable
 
  
-**Please make sure to keep all the required files (RCLint.pkl, data_preprocessing.py, scaler, featuers.txt, input_file.csv, model.py)in the working directory.**
+**Please ensure that all the necessary files (RCLint.pkl, data_preprocessing.py, scaler, features.txt, input_file.csv, model.py) are kept in the working directory**
 
 **To download the prediction model file (RCLint.pkl), please refer to the "Tags --> v2.3.4" tab**
